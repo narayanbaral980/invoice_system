@@ -63,7 +63,7 @@ export default function InvoiceForm({
               name="invNumber"
               value={form.invNumber}
               onChange={updateForm}
-              placeholder="INV-0001"
+              placeholder="101"
             />
           </div>
 
@@ -85,7 +85,7 @@ export default function InvoiceForm({
               name="clientName"
               value={form.clientName}
               onChange={updateForm}
-              placeholder="Jane Smith"
+              placeholder="Narayan Baral"
             />
           </div>
 
@@ -96,7 +96,7 @@ export default function InvoiceForm({
               name="clientEmail"
               value={form.clientEmail}
               onChange={updateForm}
-              placeholder="jane@example.com"
+              placeholder="abc@example.com"
             />
           </div>
         </div>
@@ -107,7 +107,7 @@ export default function InvoiceForm({
             name="clientAddress"
             value={form.clientAddress}
             onChange={updateForm}
-            placeholder="45 Park Rd, Phillip ACT"
+            placeholder="128 Easty Street, Phillip ACT"
           />
         </div>
       </div>
@@ -134,7 +134,7 @@ export default function InvoiceForm({
                   <input
                     value={item.desc}
                     onChange={(e) => updateItem(i, "desc", e.target.value)}
-                    placeholder="e.g. Standard 2hr clean"
+                    placeholder="e.g. General Cleaning"
                   />
                 </td>
                 <td className="col-amt">
